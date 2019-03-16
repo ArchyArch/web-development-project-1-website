@@ -6,19 +6,28 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="style.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+ <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
 </head>
 <body>
 
   <div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#model1">Model 1</a>
-  <a href="#model2">Model 2</a>
-  <a href="#model3">Model 3</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+      <a href="#home" class="active"><img src="./audi_logo.png" width="110px" height="40px"></i></a>
+      <div class="all">
+        <div class="model">
+          <a href="#model1" class="m">MODEL 1</a>
+          <a href="#model2" class="m">MODEL 2</a>
+          <a href="#model3" class="m">MODEL 3</a>
+        </div>
+        <div class="others">
+          <a href="#shop" class="m">SHOP</a>
+          <a href="#signin" class="m">SIGN IN</a>
+        </div>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
   </div>
+
 
 <script>
 function myFunction() {
@@ -31,8 +40,8 @@ function myFunction() {
 }
 </script>
 
-  <section class="section bg-section1">Section 1</section>
-  <section class="section bg-section2">Section 2</section>
-  <section class="section bg-section3">Section 3</section>
+  <a name="model1"><section class="section bg-section1"></section></a>
+  <a name="model2"><section class="section bg-section2"></section></a>
+  <a name="model3"><section class="section bg-section3"></section></a>
 </body>
 </html>
